@@ -34,3 +34,12 @@ section video
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1200px)
+{
+  .section
+  {
+    position: relative;
+    width: calc(100%  - 20px);
+  }
+}
